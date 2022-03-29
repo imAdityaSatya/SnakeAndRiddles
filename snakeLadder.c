@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
+#include<windows.h>
 
 int checkposition();
 int dice, position, newPosition, above, choice, cnt=0;
