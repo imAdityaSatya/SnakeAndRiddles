@@ -20,8 +20,6 @@ if (choice==1,2)
 {
 printf("THE SNAKE AND THE LADDER begins... \n");
 
-//printf("    *()()()()()()()()()()()()()()*\n");
-//printf("    *()()()()()()()()()()()()()()*\n");
 printf("**   100    99   98   97   96   95   94   93   92   91      **         |  1 = START                 99= snake to 41\n");
 printf("**   81     82   83   84   85   86   87   88   89   90      **         |  89= snake to 53           74= ladder to 92\n");
 printf("**   80     79   78   77   76   75   74   73   72   71      **         |  76= snake to 58           62= ladder to 81\n");
@@ -32,8 +30,6 @@ printf("**   40     39   38   37   36   35   34   33   32   31      **         |
 printf("**   21     22   23   24   25   26   27   28   29   30      **         |  11= snake to 7             4= ladder to 25\n");
 printf("**   20     19   18   17   16   15   14   13   12   11      **         |                100= THE END\n");
 printf("**   1       2    3    4    5    6    7    8    9   10      **         |                 GET SET GO \n");
-//printf("*()()()()()()()()()()()()()()*\n");
-//printf("*()()()()()()()()()()()()()()*\n");
 
 printf("\n\nCHAMPION will be the one arriving at the END point(i.e., 100) first and that too with the minimal dice throw...\n");
 
