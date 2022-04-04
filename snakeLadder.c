@@ -33,8 +33,7 @@ printf("**   1       2    3    4    5    6    7    8    9   10      **         |
 
 printf("\n\nCHAMPION will be the one arriving at the END point(i.e., 100) first and that too with the minimal dice throw...\n");
 
-do
-{
+do{
 printf("\n\nPress ENTER to roll the dice \n\n");
 dice-=getchar();
 dice=(rand()%6)+1;
@@ -47,16 +46,13 @@ printf("\nWoah its a 6, you get one more chance to roll the dice \n");
 printf("Your current position: %d\n", position);
 continue;
 }
-
 if(position>100){
 above= (position-100);
 position= (100-above);
 } 
 printf("Your current position: %d\n", position);
 cnt++;
-
 checkposition();
-
 if(position<newPosition){
 printf("\nWOHOO... you've got on a ladder. \nYour current position: %d",newPosition);
 }
@@ -65,6 +61,7 @@ printf("\nUH-OH... you're bitten by a snake. \nYour current position: %d",newPos
 }
 position= newPosition;
 }while(position<100);
+	
 printf("CONGRATS!! CHAMPION \nYOU WON in %d throws \n",cnt);
 printf("Great.. now you're eligible to pinch me, provided you're my fan ;) ");
 printf("Coz I only allow my fans to pinch.. Damn I'm so CuTe :o ");
@@ -72,7 +69,6 @@ printf("Coz I only allow my fans to pinch.. Damn I'm so CuTe :o ");
 getchar();
 return 0;
 }
-
 
 int checkposition() {
 switch(position)
