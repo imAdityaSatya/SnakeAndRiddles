@@ -1,2 +1,2 @@
 # SnakeLadder:
-This is the snake and the ladder game made in C.
+This is a basic snake and ladder game made in C.
