@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
-#include<windows.h>
 
 int chkPos();
 int dice, pos, newPos, tmp, choice, cnt=0;
