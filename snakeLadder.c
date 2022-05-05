@@ -13,8 +13,7 @@ printf("You have pressed: ");
 scanf("%d",&choice);
 if(choice==1)
 {
-printf("\n__PLAYBOOK__\n");
-printf(" ___________________________________________________________________________________________________________________\n");
+printf("\nPLAYBOOK:_________________________________________________________________________________________________________\n");
 printf("|                                                                  |                                                |\n");
 printf("|  100    99   98   97   96   95   94   93   92   91               |  1 : START                 99: snake to 41     |\n");
 printf("|  81     82   83   84   85   86   87   88   89   90               |  89: snake to 53           74: ladder to 92    |\n");
@@ -29,8 +28,8 @@ printf("|  1       2    3    4    5    6    7    8    9   10               |    
 printf("|__________________________________________________________________|_______________________________________________/\n");
 
 printf("\nReach 100 To Become The Champion \n");
-
 }
+
 if(choice==1,2)
 {
 printf("\nLET THE GAME BEGIN...\n");
@@ -83,11 +82,11 @@ case 4:
 
 case 13:
             return newPos=46;
-	    break; 
+	        break; 
 
 case 33:
             return newPos=90;
-	    break;
+	        break;
 
 case 50:
             return newPos=69;
@@ -111,7 +110,7 @@ case 27:
 
 case 40:
             return newPos=3;
-	    break;
+	        break;
 
 case 43:
             return newPos=18;
@@ -127,7 +126,7 @@ case 66:
 
 case 76:
             return newPos=58;
-	    break;
+	        break;
 
 case 89:
             return newPos=53;
@@ -141,3 +140,23 @@ default:
             return newPos=pos;
 }
 }
+
+void lifeline(){
+srand(time(NULL));
+int r= rand()%10;
+printf("%d",r);
+switch(r)
+{
+case 0: 
+    printf("")
+}
+
+}
+ 
+
+
+
+
+
+
+
