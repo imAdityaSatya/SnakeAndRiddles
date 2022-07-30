@@ -2,7 +2,6 @@
 #include<stdlib.h>
 #include<string.h>
 #include<time.h>
-#include<ctype.h>
 
 int dice, pos, newPos, choice, cnt=0;
 
